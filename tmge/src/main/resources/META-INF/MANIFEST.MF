@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: inf122.group7.Main
+Class-Path: javafx-graphics-19.jar javassist-3.28.0-GA.jar javafx-fxml-1
+ 9.jar reflections-0.10.2.jar javafx-base-19-win.jar slf4j-api-1.7.32.ja
+ r javafx-base-19.jar javafx-fxml-19-win.jar jsr305-3.0.2.jar javafx-gra
+ phics-19-win.jar javafx-controls-19-win.jar javafx-controls-19.jar
+

@@ -1,0 +1,1 @@
+java -jar ./runnable/tmge-1.0-SNAPSHOT-shaded.jar

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171"
+   xmlns:fx="http://javafx.com/fxml/1" fx:controller="inf122.group7.menu.MenuController">
+   <children>
+      <HBox alignment="CENTER" spacing="20.0">
+         <Label text="User 1 Name:" />
+         <TextField fx:id="userNameField1" />
+      </HBox>
+      <HBox alignment="CENTER" spacing="20.0">
+         <Label text="User 2 Name:" />
+         <TextField fx:id="userNameField2" />
+      </HBox>
+      <Label fx:id="menuStatusLabel" />
+      <Label text="Choose Game" />
+      <Label fx:id="currentGameLabel" text="" />
+      <HBox alignment="CENTER" spacing="20.0">
+         <Button fx:id="prevButton" text="Previous" prefWidth="100.0" onAction="#previousGame" />
+         <Button fx:id="nextButton" text="Next" prefWidth="100.0" onAction="#nextGame" />
+      </HBox>
+      <Button fx:id="selectButton" text="Select" onAction="#chooseGame" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
